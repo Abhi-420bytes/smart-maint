@@ -1,0 +1,246 @@
+{
+  "metadata": {
+    "project": "project",
+    "generated_at": "2026-05-09T06:59:14.787330+00:00",
+    "tool": "SMART-MAINT v2.0"
+  },
+  "summary": {
+    "total_files": 15,
+    "total_loc": 2319,
+    "average_complexity": 23.6,
+    "average_maintenance_score": 18.41,
+    "high_risk_count": 0,
+    "medium_risk_count": 3,
+    "low_risk_count": 12
+  },
+  "details": [
+    {
+      "file": "backend\\main.py",
+      "loc": 284,
+      "complexity": 44,
+      "coupling": 19,
+      "change_frequency": 0,
+      "score": 57.04,
+      "is_high_risk": false
+    },
+    {
+      "file": "frontend\\src\\components\\Dashboard.jsx",
+      "loc": 889,
+      "complexity": 137,
+      "coupling": 6,
+      "change_frequency": 0,
+      "score": 54.89,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\chatbot.py",
+      "loc": 276,
+      "complexity": 102,
+      "coupling": 2,
+      "change_frequency": 0,
+      "score": 44.76,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\scanner.py",
+      "loc": 79,
+      "complexity": 26,
+      "coupling": 3,
+      "change_frequency": 0,
+      "score": 24.59,
+      "is_high_risk": false
+    },
+    {
+      "file": "frontend\\src\\test\\Dashboard.test.jsx",
+      "loc": 286,
+      "complexity": 11,
+      "coupling": 12,
+      "change_frequency": 0,
+      "score": 23.66,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\tests\\test_api.py",
+      "loc": 155,
+      "complexity": 6,
+      "coupling": 16,
+      "change_frequency": 0,
+      "score": 22.35,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\cloud_storage.py",
+      "loc": 119,
+      "complexity": 8,
+      "coupling": 6,
+      "change_frequency": 0,
+      "score": 13.59,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\traffic.py",
+      "loc": 129,
+      "complexity": 12,
+      "coupling": 1,
+      "change_frequency": 0,
+      "score": 11.89,
+      "is_high_risk": false
+    },
+    {
+      "file": "frontend\\src\\main.jsx",
+      "loc": 9,
+      "complexity": 1,
+      "coupling": 7,
+      "change_frequency": 0,
+      "score": 7.89,
+      "is_high_risk": false
+    },
+    {
+      "file": "frontend\\src\\App.jsx",
+      "loc": 13,
+      "complexity": 1,
+      "coupling": 4,
+      "change_frequency": 0,
+      "score": 4.93,
+      "is_high_risk": false
+    },
+    {
+      "file": "frontend\\vite.config.js",
+      "loc": 12,
+      "complexity": 1,
+      "coupling": 4,
+      "change_frequency": 0,
+      "score": 4.92,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\scoring.py",
+      "loc": 42,
+      "complexity": 2,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 2.02,
+      "is_high_risk": false
+    },
+    {
+      "file": "frontend\\src\\test\\setup.js",
+      "loc": 3,
+      "complexity": 1,
+      "coupling": 1,
+      "change_frequency": 0,
+      "score": 1.83,
+      "is_high_risk": false
+    },
+    {
+      "file": "frontend\\tailwind.config.js",
+      "loc": 17,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 0.97,
+      "is_high_risk": false
+    },
+    {
+      "file": "frontend\\postcss.config.js",
+      "loc": 6,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 0.86,
+      "is_high_risk": false
+    }
+  ],
+  "high_risk_files": [],
+  "top_risk_files": [
+    {
+      "file": "backend\\main.py",
+      "loc": 284,
+      "complexity": 44,
+      "coupling": 19,
+      "change_frequency": 0,
+      "score": 57.04,
+      "is_high_risk": false
+    },
+    {
+      "file": "frontend\\src\\components\\Dashboard.jsx",
+      "loc": 889,
+      "complexity": 137,
+      "coupling": 6,
+      "change_frequency": 0,
+      "score": 54.89,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\chatbot.py",
+      "loc": 276,
+      "complexity": 102,
+      "coupling": 2,
+      "change_frequency": 0,
+      "score": 44.76,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\scanner.py",
+      "loc": 79,
+      "complexity": 26,
+      "coupling": 3,
+      "change_frequency": 0,
+      "score": 24.59,
+      "is_high_risk": false
+    },
+    {
+      "file": "frontend\\src\\test\\Dashboard.test.jsx",
+      "loc": 286,
+      "complexity": 11,
+      "coupling": 12,
+      "change_frequency": 0,
+      "score": 23.66,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\tests\\test_api.py",
+      "loc": 155,
+      "complexity": 6,
+      "coupling": 16,
+      "change_frequency": 0,
+      "score": 22.35,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\cloud_storage.py",
+      "loc": 119,
+      "complexity": 8,
+      "coupling": 6,
+      "change_frequency": 0,
+      "score": 13.59,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\traffic.py",
+      "loc": 129,
+      "complexity": 12,
+      "coupling": 1,
+      "change_frequency": 0,
+      "score": 11.89,
+      "is_high_risk": false
+    },
+    {
+      "file": "frontend\\src\\main.jsx",
+      "loc": 9,
+      "complexity": 1,
+      "coupling": 7,
+      "change_frequency": 0,
+      "score": 7.89,
+      "is_high_risk": false
+    },
+    {
+      "file": "frontend\\src\\App.jsx",
+      "loc": 13,
+      "complexity": 1,
+      "coupling": 4,
+      "change_frequency": 0,
+      "score": 4.93,
+      "is_high_risk": false
+    }
+  ]
+}

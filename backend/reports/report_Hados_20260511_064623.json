@@ -1,0 +1,801 @@
+{
+  "metadata": {
+    "project": "Hados",
+    "generated_at": "2026-05-11T06:46:23.327825+00:00",
+    "tool": "SMART-MAINT v2.0"
+  },
+  "repo_url": "https://github.com/AkshayD011/Hados",
+  "repo_name": "Hados",
+  "summary": {
+    "total_files": 68,
+    "total_loc": 11610,
+    "average_complexity": 11.49,
+    "average_maintenance_score": 16.68,
+    "high_risk_count": 0,
+    "medium_risk_count": 7,
+    "low_risk_count": 61
+  },
+  "details": [
+    {
+      "file": "src\\pages\\admin\\AdminUsersPage.jsx",
+      "loc": 299,
+      "complexity": 51,
+      "coupling": 16,
+      "change_frequency": 1,
+      "score": 59.59,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\pages\\admin\\AdminDashboardPage.jsx",
+      "loc": 479,
+      "complexity": 51,
+      "coupling": 13,
+      "change_frequency": 1,
+      "score": 58.39,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\pages\\LostFoundPage.jsx",
+      "loc": 363,
+      "complexity": 52,
+      "coupling": 14,
+      "change_frequency": 1,
+      "score": 58.23,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\pages\\ProfilePage.jsx",
+      "loc": 367,
+      "complexity": 61,
+      "coupling": 12,
+      "change_frequency": 1,
+      "score": 56.27,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\pages\\LoginPage.jsx",
+      "loc": 357,
+      "complexity": 43,
+      "coupling": 16,
+      "change_frequency": 1,
+      "score": 54.57,
+      "is_high_risk": false
+    },
+    {
+      "file": "package-lock.json",
+      "loc": 4058,
+      "complexity": 76,
+      "coupling": 0,
+      "change_frequency": 1,
+      "score": 50.6,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\pages\\HomePage.jsx",
+      "loc": 293,
+      "complexity": 23,
+      "coupling": 22,
+      "change_frequency": 1,
+      "score": 41.93,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\context\\AuthContext.jsx",
+      "loc": 206,
+      "complexity": 33,
+      "coupling": 7,
+      "change_frequency": 1,
+      "score": 36.06,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\components\\layout\\Header.jsx",
+      "loc": 239,
+      "complexity": 16,
+      "coupling": 14,
+      "change_frequency": 1,
+      "score": 29.79,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\components\\admin\\AdminSidebar.jsx",
+      "loc": 278,
+      "complexity": 17,
+      "coupling": 11,
+      "change_frequency": 1,
+      "score": 27.98,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\components\\common\\PostCard.jsx",
+      "loc": 244,
+      "complexity": 18,
+      "coupling": 10,
+      "change_frequency": 1,
+      "score": 27.44,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\components\\layout\\Sidebar.jsx",
+      "loc": 279,
+      "complexity": 21,
+      "coupling": 7,
+      "change_frequency": 1,
+      "score": 27.19,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\utils\\roles.js",
+      "loc": 115,
+      "complexity": 30,
+      "coupling": 0,
+      "change_frequency": 1,
+      "score": 25.75,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\routes\\AppRoutes.jsx",
+      "loc": 94,
+      "complexity": 3,
+      "coupling": 46,
+      "change_frequency": 1,
+      "score": 23.94,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\components\\admin\\AdminNavbar.jsx",
+      "loc": 171,
+      "complexity": 12,
+      "coupling": 12,
+      "change_frequency": 1,
+      "score": 23.91,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\pages\\CalendarPage.jsx",
+      "loc": 122,
+      "complexity": 13,
+      "coupling": 10,
+      "change_frequency": 1,
+      "score": 22.22,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\services\\api\\index.js",
+      "loc": 24,
+      "complexity": 1,
+      "coupling": 22,
+      "change_frequency": 1,
+      "score": 21.64,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\components\\common\\EmptyState.jsx",
+      "loc": 181,
+      "complexity": 19,
+      "coupling": 4,
+      "change_frequency": 1,
+      "score": 21.61,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\pages\\MapPage.jsx",
+      "loc": 129,
+      "complexity": 12,
+      "coupling": 10,
+      "change_frequency": 1,
+      "score": 21.49,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\hooks\\useFormValidation.js",
+      "loc": 64,
+      "complexity": 22,
+      "coupling": 2,
+      "change_frequency": 1,
+      "score": 20.84,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\components\\auth\\AdminRoute.jsx",
+      "loc": 59,
+      "complexity": 6,
+      "coupling": 14,
+      "change_frequency": 1,
+      "score": 19.99,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\components\\ui\\FormField.jsx",
+      "loc": 113,
+      "complexity": 17,
+      "coupling": 4,
+      "change_frequency": 1,
+      "score": 19.33,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\components\\auth\\RoleGuard.jsx",
+      "loc": 96,
+      "complexity": 12,
+      "coupling": 8,
+      "change_frequency": 1,
+      "score": 19.16,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\App.jsx",
+      "loc": 35,
+      "complexity": 1,
+      "coupling": 16,
+      "change_frequency": 1,
+      "score": 17.75,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\pages\\ClubsPage.jsx",
+      "loc": 115,
+      "complexity": 7,
+      "coupling": 10,
+      "change_frequency": 1,
+      "score": 17.35,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\pages\\SavedPostsPage.jsx",
+      "loc": 58,
+      "complexity": 5,
+      "coupling": 12,
+      "change_frequency": 1,
+      "score": 17.18,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\components\\ui\\CustomCursor.jsx",
+      "loc": 91,
+      "complexity": 14,
+      "coupling": 4,
+      "change_frequency": 1,
+      "score": 16.71,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\components\\admin\\AdminLayout.jsx",
+      "loc": 97,
+      "complexity": 9,
+      "coupling": 6,
+      "change_frequency": 1,
+      "score": 14.77,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\hooks\\useRole.js",
+      "loc": 52,
+      "complexity": 13,
+      "coupling": 3,
+      "change_frequency": 1,
+      "score": 14.52,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\pages\\PlacementorPage.jsx",
+      "loc": 90,
+      "complexity": 6,
+      "coupling": 8,
+      "change_frequency": 1,
+      "score": 14.3,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\components\\common\\TrendingWidget.jsx",
+      "loc": 97,
+      "complexity": 5,
+      "coupling": 8,
+      "change_frequency": 1,
+      "score": 13.57,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\utils\\__tests__\\roles.test.js",
+      "loc": 123,
+      "complexity": 10,
+      "coupling": 3,
+      "change_frequency": 1,
+      "score": 12.83,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\pages\\NotFoundPage.jsx",
+      "loc": 181,
+      "complexity": 2,
+      "coupling": 8,
+      "change_frequency": 1,
+      "score": 12.01,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\services\\api\\feed.api.js",
+      "loc": 76,
+      "complexity": 12,
+      "coupling": 1,
+      "change_frequency": 1,
+      "score": 11.96,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\services\\api\\clubs.api.js",
+      "loc": 49,
+      "complexity": 11,
+      "coupling": 2,
+      "change_frequency": 1,
+      "score": 11.89,
+      "is_high_risk": false
+    },
+    {
+      "file": "eslint.config.js",
+      "loc": 29,
+      "complexity": 1,
+      "coupling": 10,
+      "change_frequency": 1,
+      "score": 11.69,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\services\\api\\lostFound.api.js",
+      "loc": 70,
+      "complexity": 11,
+      "coupling": 1,
+      "change_frequency": 1,
+      "score": 11.1,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\scripts\\seedCalendar.js",
+      "loc": 79,
+      "complexity": 6,
+      "coupling": 4,
+      "change_frequency": 1,
+      "score": 10.19,
+      "is_high_risk": false
+    },
+    {
+      "file": "server\\package-lock.json",
+      "loc": 867,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 1,
+      "score": 10.07,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\services\\firebase\\config.js",
+      "loc": 18,
+      "complexity": 1,
+      "coupling": 8,
+      "change_frequency": 1,
+      "score": 9.58,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\components\\common\\ErrorBoundary.jsx",
+      "loc": 96,
+      "complexity": 4,
+      "coupling": 4,
+      "change_frequency": 1,
+      "score": 8.76,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\main.jsx",
+      "loc": 9,
+      "complexity": 1,
+      "coupling": 7,
+      "change_frequency": 1,
+      "score": 8.49,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\context\\ThemeContext.jsx",
+      "loc": 28,
+      "complexity": 6,
+      "coupling": 2,
+      "change_frequency": 1,
+      "score": 7.68,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\components\\layout\\Layout.jsx",
+      "loc": 20,
+      "complexity": 1,
+      "coupling": 6,
+      "change_frequency": 1,
+      "score": 7.6,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\services\\firebase\\firestore.js",
+      "loc": 57,
+      "complexity": 4,
+      "coupling": 3,
+      "change_frequency": 1,
+      "score": 7.37,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\services\\api\\profile.api.js",
+      "loc": 24,
+      "complexity": 5,
+      "coupling": 2,
+      "change_frequency": 1,
+      "score": 6.84,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\services\\api\\dbAdmin.api.js",
+      "loc": 22,
+      "complexity": 5,
+      "coupling": 2,
+      "change_frequency": 1,
+      "score": 6.82,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\services\\api\\map.api.js",
+      "loc": 28,
+      "complexity": 4,
+      "coupling": 2,
+      "change_frequency": 1,
+      "score": 6.08,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\components\\ui\\BackgroundElements.jsx",
+      "loc": 62,
+      "complexity": 1,
+      "coupling": 4,
+      "change_frequency": 1,
+      "score": 6.02,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\components\\ui\\Skeleton.jsx",
+      "loc": 175,
+      "complexity": 2,
+      "coupling": 2,
+      "change_frequency": 1,
+      "score": 5.95,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\pages\\admin\\AdminClubsPage.jsx",
+      "loc": 25,
+      "complexity": 1,
+      "coupling": 4,
+      "change_frequency": 1,
+      "score": 5.65,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\pages\\admin\\AdminLostFoundPage.jsx",
+      "loc": 25,
+      "complexity": 1,
+      "coupling": 4,
+      "change_frequency": 1,
+      "score": 5.65,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\pages\\admin\\AdminPostsPage.jsx",
+      "loc": 25,
+      "complexity": 1,
+      "coupling": 4,
+      "change_frequency": 1,
+      "score": 5.65,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\pages\\admin\\AdminReportsPage.jsx",
+      "loc": 25,
+      "complexity": 1,
+      "coupling": 4,
+      "change_frequency": 1,
+      "score": 5.65,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\services\\firebase\\auth.js",
+      "loc": 37,
+      "complexity": 2,
+      "coupling": 3,
+      "change_frequency": 1,
+      "score": 5.57,
+      "is_high_risk": false
+    },
+    {
+      "file": "vite.config.js",
+      "loc": 6,
+      "complexity": 1,
+      "coupling": 4,
+      "change_frequency": 1,
+      "score": 5.46,
+      "is_high_risk": false
+    },
+    {
+      "file": "server\\server.js",
+      "loc": 24,
+      "complexity": 2,
+      "coupling": 3,
+      "change_frequency": 1,
+      "score": 5.44,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\services\\api\\hashtags.api.js",
+      "loc": 15,
+      "complexity": 3,
+      "coupling": 2,
+      "change_frequency": 1,
+      "score": 5.15,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\services\\api\\calendar.api.js",
+      "loc": 11,
+      "complexity": 2,
+      "coupling": 2,
+      "change_frequency": 1,
+      "score": 4.31,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\components\\ui\\InteractiveBackground.jsx",
+      "loc": 24,
+      "complexity": 1,
+      "coupling": 2,
+      "change_frequency": 1,
+      "score": 3.64,
+      "is_high_risk": false
+    },
+    {
+      "file": "server\\routes\\health.js",
+      "loc": 6,
+      "complexity": 1,
+      "coupling": 2,
+      "change_frequency": 1,
+      "score": 3.46,
+      "is_high_risk": false
+    },
+    {
+      "file": "server\\package.json",
+      "loc": 18,
+      "complexity": 2,
+      "coupling": 0,
+      "change_frequency": 1,
+      "score": 2.38,
+      "is_high_risk": false
+    },
+    {
+      "file": "package.json",
+      "loc": 32,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 1,
+      "score": 1.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\constants\\routes.js",
+      "loc": 19,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 1,
+      "score": 1.59,
+      "is_high_risk": false
+    },
+    {
+      "file": "server\\controllers\\healthController.js",
+      "loc": 14,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 1,
+      "score": 1.54,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\services\\api\\notifications.api.js",
+      "loc": 11,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 1,
+      "score": 1.51,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\services\\api\\placement.api.js",
+      "loc": 11,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 1,
+      "score": 1.51,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\services\\api\\auth.api.js",
+      "loc": 4,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 1,
+      "score": 1.44,
+      "is_high_risk": false
+    }
+  ],
+  "high_risk_files": [],
+  "top_risk_files": [
+    {
+      "file": "src\\pages\\admin\\AdminUsersPage.jsx",
+      "loc": 299,
+      "complexity": 51,
+      "coupling": 16,
+      "change_frequency": 1,
+      "score": 59.59,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\pages\\admin\\AdminDashboardPage.jsx",
+      "loc": 479,
+      "complexity": 51,
+      "coupling": 13,
+      "change_frequency": 1,
+      "score": 58.39,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\pages\\LostFoundPage.jsx",
+      "loc": 363,
+      "complexity": 52,
+      "coupling": 14,
+      "change_frequency": 1,
+      "score": 58.23,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\pages\\ProfilePage.jsx",
+      "loc": 367,
+      "complexity": 61,
+      "coupling": 12,
+      "change_frequency": 1,
+      "score": 56.27,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\pages\\LoginPage.jsx",
+      "loc": 357,
+      "complexity": 43,
+      "coupling": 16,
+      "change_frequency": 1,
+      "score": 54.57,
+      "is_high_risk": false
+    },
+    {
+      "file": "package-lock.json",
+      "loc": 4058,
+      "complexity": 76,
+      "coupling": 0,
+      "change_frequency": 1,
+      "score": 50.6,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\pages\\HomePage.jsx",
+      "loc": 293,
+      "complexity": 23,
+      "coupling": 22,
+      "change_frequency": 1,
+      "score": 41.93,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\context\\AuthContext.jsx",
+      "loc": 206,
+      "complexity": 33,
+      "coupling": 7,
+      "change_frequency": 1,
+      "score": 36.06,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\components\\layout\\Header.jsx",
+      "loc": 239,
+      "complexity": 16,
+      "coupling": 14,
+      "change_frequency": 1,
+      "score": 29.79,
+      "is_high_risk": false
+    },
+    {
+      "file": "src\\components\\admin\\AdminSidebar.jsx",
+      "loc": 278,
+      "complexity": 17,
+      "coupling": 11,
+      "change_frequency": 1,
+      "score": 27.98,
+      "is_high_risk": false
+    }
+  ],
+  "recommendations": [
+    {
+      "file": "src\\pages\\admin\\AdminUsersPage.jsx",
+      "score": 59.59,
+      "priority": "critical",
+      "actions": [
+        "Break down complex logic in `AdminUsersPage.jsx` \u2014 cyclomatic complexity is critically high (51). Split into smaller functions.",
+        "`AdminUsersPage.jsx` has too many dependencies (16 imports). Apply dependency injection and interface abstractions."
+      ]
+    },
+    {
+      "file": "src\\pages\\admin\\AdminDashboardPage.jsx",
+      "score": 58.39,
+      "priority": "critical",
+      "actions": [
+        "Break down complex logic in `AdminDashboardPage.jsx` \u2014 cyclomatic complexity is critically high (51). Split into smaller functions.",
+        "Reduce coupling in `AdminDashboardPage.jsx` (13 imports). Move shared utilities to a common module.",
+        "Consider splitting `AdminDashboardPage.jsx` (479 lines) into smaller, focused files."
+      ]
+    },
+    {
+      "file": "src\\pages\\LostFoundPage.jsx",
+      "score": 58.23,
+      "priority": "critical",
+      "actions": [
+        "Break down complex logic in `LostFoundPage.jsx` \u2014 cyclomatic complexity is critically high (52). Split into smaller functions.",
+        "Reduce coupling in `LostFoundPage.jsx` (14 imports). Move shared utilities to a common module."
+      ]
+    },
+    {
+      "file": "src\\pages\\ProfilePage.jsx",
+      "score": 56.27,
+      "priority": "critical",
+      "actions": [
+        "Break down complex logic in `ProfilePage.jsx` \u2014 cyclomatic complexity is critically high (61). Split into smaller functions.",
+        "Reduce coupling in `ProfilePage.jsx` (12 imports). Move shared utilities to a common module."
+      ]
+    },
+    {
+      "file": "src\\pages\\LoginPage.jsx",
+      "score": 54.57,
+      "priority": "critical",
+      "actions": [
+        "Break down complex logic in `LoginPage.jsx` \u2014 cyclomatic complexity is critically high (43). Split into smaller functions.",
+        "`LoginPage.jsx` has too many dependencies (16 imports). Apply dependency injection and interface abstractions.",
+        "Security-sensitive file detected: `LoginPage.jsx`. Conduct a security review and ensure input validation."
+      ]
+    },
+    {
+      "file": "package-lock.json",
+      "score": 50.6,
+      "priority": "critical",
+      "actions": [
+        "Break down complex logic in `package-lock.json` \u2014 cyclomatic complexity is critically high (76). Split into smaller functions.",
+        "`package-lock.json` is very large (4058 lines). Split into multiple focused modules following Single Responsibility Principle."
+      ]
+    },
+    {
+      "file": "src\\context\\AuthContext.jsx",
+      "score": 36.06,
+      "priority": "critical",
+      "actions": [
+        "Reduce branching in `AuthContext.jsx` (complexity: 33). Replace nested if-else with early returns or strategy pattern.",
+        "Security-sensitive file detected: `AuthContext.jsx`. Conduct a security review and ensure input validation."
+      ]
+    },
+    {
+      "file": "src\\pages\\HomePage.jsx",
+      "score": 41.93,
+      "priority": "high",
+      "actions": [
+        "Reduce branching in `HomePage.jsx` (complexity: 23). Replace nested if-else with early returns or strategy pattern.",
+        "`HomePage.jsx` has too many dependencies (22 imports). Apply dependency injection and interface abstractions."
+      ]
+    }
+  ]
+}

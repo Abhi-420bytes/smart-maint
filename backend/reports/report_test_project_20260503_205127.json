@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "project": "test_project",
+    "generated_at": "2026-05-03T20:51:27.455538+00:00",
+    "tool": "SMART-MAINT v2.0"
+  },
+  "summary": {
+    "total_files": 7,
+    "total_loc": 1084,
+    "average_complexity": 28.57,
+    "average_maintenance_score": 25.18,
+    "high_risk_count": 0,
+    "medium_risk_count": 2,
+    "low_risk_count": 5
+  },
+  "details": [
+    {
+      "file": "main.py",
+      "loc": 284,
+      "complexity": 44,
+      "coupling": 19,
+      "change_frequency": 0,
+      "score": 57.04,
+      "is_high_risk": false
+    },
+    {
+      "file": "chatbot.py",
+      "loc": 276,
+      "complexity": 102,
+      "coupling": 2,
+      "change_frequency": 0,
+      "score": 44.76,
+      "is_high_risk": false
+    },
+    {
+      "file": "scanner.py",
+      "loc": 79,
+      "complexity": 26,
+      "coupling": 3,
+      "change_frequency": 0,
+      "score": 24.59,
+      "is_high_risk": false
+    },
+    {
+      "file": "tests\\test_api.py",
+      "loc": 155,
+      "complexity": 6,
+      "coupling": 16,
+      "change_frequency": 0,
+      "score": 22.35,
+      "is_high_risk": false
+    },
+    {
+      "file": "cloud_storage.py",
+      "loc": 119,
+      "complexity": 8,
+      "coupling": 6,
+      "change_frequency": 0,
+      "score": 13.59,
+      "is_high_risk": false
+    },
+    {
+      "file": "traffic.py",
+      "loc": 129,
+      "complexity": 12,
+      "coupling": 1,
+      "change_frequency": 0,
+      "score": 11.89,
+      "is_high_risk": false
+    },
+    {
+      "file": "scoring.py",
+      "loc": 42,
+      "complexity": 2,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 2.02,
+      "is_high_risk": false
+    }
+  ],
+  "high_risk_files": [],
+  "top_risk_files": [
+    {
+      "file": "main.py",
+      "loc": 284,
+      "complexity": 44,
+      "coupling": 19,
+      "change_frequency": 0,
+      "score": 57.04,
+      "is_high_risk": false
+    },
+    {
+      "file": "chatbot.py",
+      "loc": 276,
+      "complexity": 102,
+      "coupling": 2,
+      "change_frequency": 0,
+      "score": 44.76,
+      "is_high_risk": false
+    },
+    {
+      "file": "scanner.py",
+      "loc": 79,
+      "complexity": 26,
+      "coupling": 3,
+      "change_frequency": 0,
+      "score": 24.59,
+      "is_high_risk": false
+    },
+    {
+      "file": "tests\\test_api.py",
+      "loc": 155,
+      "complexity": 6,
+      "coupling": 16,
+      "change_frequency": 0,
+      "score": 22.35,
+      "is_high_risk": false
+    },
+    {
+      "file": "cloud_storage.py",
+      "loc": 119,
+      "complexity": 8,
+      "coupling": 6,
+      "change_frequency": 0,
+      "score": 13.59,
+      "is_high_risk": false
+    },
+    {
+      "file": "traffic.py",
+      "loc": 129,
+      "complexity": 12,
+      "coupling": 1,
+      "change_frequency": 0,
+      "score": 11.89,
+      "is_high_risk": false
+    },
+    {
+      "file": "scoring.py",
+      "loc": 42,
+      "complexity": 2,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 2.02,
+      "is_high_risk": false
+    }
+  ]
+}

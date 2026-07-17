@@ -1,0 +1,1392 @@
+{
+  "metadata": {
+    "project": "project",
+    "generated_at": "2026-05-10T09:02:33.534756+00:00",
+    "tool": "SMART-MAINT v2.0"
+  },
+  "summary": {
+    "total_files": 127,
+    "total_loc": 63402,
+    "average_complexity": 532.64,
+    "average_maintenance_score": 14.2,
+    "high_risk_count": 0,
+    "medium_risk_count": 27,
+    "low_risk_count": 100
+  },
+  "details": [
+    {
+      "file": "cyber_pipeline.py",
+      "loc": 923,
+      "complexity": 159,
+      "coupling": 24,
+      "change_frequency": 0,
+      "score": 69.23,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-3.3.6\\include\\hdfs.h",
+      "loc": 1106,
+      "complexity": 84,
+      "coupling": 4,
+      "change_frequency": 0,
+      "score": 54.0,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\include\\hdfs.h",
+      "loc": 1106,
+      "complexity": 84,
+      "coupling": 4,
+      "change_frequency": 0,
+      "score": 54.0,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-3.3.6\\share\\hadoop\\tools\\sls\\html\\js\\thirdparty\\d3.v3.js",
+      "loc": 8809,
+      "complexity": 1811,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 50.0,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-3.3.6\\share\\hadoop\\tools\\sls\\html\\js\\thirdparty\\jquery.js",
+      "loc": 8796,
+      "complexity": 2449,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 50.0,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-3.3.6\\share\\hadoop\\yarn\\webapps\\ui2\\assets\\vendor.js",
+      "loc": 8455,
+      "complexity": 22665,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 50.0,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\hadoop\\hdfs\\webapps\\static\\bootstrap-3.4.1\\js\\bootstrap.js",
+      "loc": 1963,
+      "complexity": 468,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 50.0,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\hadoop\\tools\\sls\\html\\js\\thirdparty\\d3.v3.js",
+      "loc": 8809,
+      "complexity": 1811,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 50.0,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\hadoop\\tools\\sls\\html\\js\\thirdparty\\jquery.js",
+      "loc": 8796,
+      "complexity": 2449,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 50.0,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\hadoop\\yarn\\webapps\\ui2\\assets\\vendor.js",
+      "loc": 8455,
+      "complexity": 22665,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 50.0,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\hadoop\\hdfs\\webapps\\hdfs\\explorer.js",
+      "loc": 496,
+      "complexity": 50,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 44.96,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\hadoop\\hdfs\\webapps\\router\\explorer.js",
+      "loc": 496,
+      "complexity": 50,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 44.96,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\hadoop\\hdfs\\webapps\\router\\federationhealth.js",
+      "loc": 482,
+      "complexity": 65,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 44.82,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\hadoop\\hdfs\\webapps\\hdfs\\dfshealth.js",
+      "loc": 455,
+      "complexity": 57,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 44.55,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-3.3.6\\share\\hadoop\\yarn\\webapps\\ui2\\assets\\yarn-ui.js",
+      "loc": 422,
+      "complexity": 1295,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 44.22,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\hadoop\\yarn\\webapps\\ui2\\assets\\yarn-ui.js",
+      "loc": 422,
+      "complexity": 1295,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 44.22,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\hadoop\\hdfs\\webapps\\static\\json-bignum.js",
+      "loc": 317,
+      "complexity": 67,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 43.17,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\hadoop\\hdfs\\webapps\\static\\jquery.dataTables.min.js",
+      "loc": 160,
+      "complexity": 1199,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 41.6,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\hadoop\\hdfs\\webapps\\static\\dust-helpers-1.1.1.min.js",
+      "loc": 9,
+      "complexity": 84,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 40.09,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\hadoop\\hdfs\\webapps\\static\\d3-v4.1.1.min.js",
+      "loc": 8,
+      "complexity": 2854,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 40.08,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\hadoop\\hdfs\\webapps\\static\\bootstrap-3.4.1\\js\\bootstrap-editable.min.js",
+      "loc": 7,
+      "complexity": 725,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 40.07,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-3.3.6\\share\\hadoop\\tools\\sls\\html\\js\\thirdparty\\bootstrap.min.js",
+      "loc": 6,
+      "complexity": 289,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 40.06,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\hadoop\\hdfs\\webapps\\static\\bootstrap-3.4.1\\js\\bootstrap.min.js",
+      "loc": 6,
+      "complexity": 451,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 40.06,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\hadoop\\tools\\sls\\html\\js\\thirdparty\\bootstrap.min.js",
+      "loc": 6,
+      "complexity": 289,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 40.06,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\hadoop\\hdfs\\webapps\\static\\moment.min.js",
+      "loc": 5,
+      "complexity": 920,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 40.05,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\hadoop\\hdfs\\webapps\\static\\jquery-3.6.0.min.js",
+      "loc": 2,
+      "complexity": 2079,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 40.02,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\hadoop\\hdfs\\webapps\\static\\dust-full-2.0.0.min.js",
+      "loc": 1,
+      "complexity": 643,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 40.01,
+      "is_high_risk": false
+    },
+    {
+      "file": "patch_stage2.py",
+      "loc": 160,
+      "complexity": 37,
+      "coupling": 7,
+      "change_frequency": 0,
+      "score": 38.2,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\hadoop\\hdfs\\webapps\\static\\dataTables.bootstrap.js",
+      "loc": 173,
+      "complexity": 31,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 26.53,
+      "is_high_risk": false
+    },
+    {
+      "file": "features\\common_features.py",
+      "loc": 61,
+      "complexity": 21,
+      "coupling": 2,
+      "change_frequency": 0,
+      "score": 19.41,
+      "is_high_risk": false
+    },
+    {
+      "file": "patch_threat_graph.py",
+      "loc": 96,
+      "complexity": 18,
+      "coupling": 2,
+      "change_frequency": 0,
+      "score": 17.36,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\hadoop\\hdfs\\webapps\\static\\dfs-dust.js",
+      "loc": 124,
+      "complexity": 18,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 15.64,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\hadoop\\hdfs\\webapps\\static\\rest-csrf.js",
+      "loc": 83,
+      "complexity": 17,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 14.43,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\hadoop\\hdfs\\webapps\\journal\\jn.js",
+      "loc": 73,
+      "complexity": 10,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 8.73,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\hadoop\\hdfs\\webapps\\secondary\\snn.js",
+      "loc": 60,
+      "complexity": 7,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 6.2,
+      "is_high_risk": false
+    },
+    {
+      "file": "stage1\\evaluate_stage1.py",
+      "loc": 7,
+      "complexity": 3,
+      "coupling": 3,
+      "change_frequency": 0,
+      "score": 5.47,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-3.3.6\\share\\doc\\hadoop\\api\\script.js",
+      "loc": 29,
+      "complexity": 6,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 5.09,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-3.3.6\\share\\doc\\hadoop\\hadoop-auth\\apidocs\\script.js",
+      "loc": 29,
+      "complexity": 6,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 5.09,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-3.3.6\\share\\doc\\hadoop\\hadoop-hdfs-httpfs\\apidocs\\script.js",
+      "loc": 29,
+      "complexity": 6,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 5.09,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-3.3.6\\share\\doc\\hadoop\\hadoop-mapreduce-client\\hadoop-mapreduce-client-app\\apidocs\\script.js",
+      "loc": 29,
+      "complexity": 6,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 5.09,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-3.3.6\\share\\doc\\hadoop\\hadoop-mapreduce-client\\hadoop-mapreduce-client-common\\apidocs\\script.js",
+      "loc": 29,
+      "complexity": 6,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 5.09,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-3.3.6\\share\\doc\\hadoop\\hadoop-mapreduce-client\\hadoop-mapreduce-client-hs\\apidocs\\script.js",
+      "loc": 29,
+      "complexity": 6,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 5.09,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-3.3.6\\share\\doc\\hadoop\\hadoop-mapreduce-client\\hadoop-mapreduce-client-hs-plugins\\apidocs\\script.js",
+      "loc": 29,
+      "complexity": 6,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 5.09,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-3.3.6\\share\\doc\\hadoop\\hadoop-mapreduce-client\\hadoop-mapreduce-client-jobclient\\apidocs\\script.js",
+      "loc": 29,
+      "complexity": 6,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 5.09,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-3.3.6\\share\\doc\\hadoop\\hadoop-mapreduce-client\\hadoop-mapreduce-client-nativetask\\apidocs\\script.js",
+      "loc": 29,
+      "complexity": 6,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 5.09,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-3.3.6\\share\\doc\\hadoop\\hadoop-mapreduce-client\\hadoop-mapreduce-client-shuffle\\apidocs\\script.js",
+      "loc": 29,
+      "complexity": 6,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 5.09,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-3.3.6\\share\\doc\\hadoop\\hadoop-mapreduce-client\\hadoop-mapreduce-client-uploader\\apidocs\\script.js",
+      "loc": 29,
+      "complexity": 6,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 5.09,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-3.3.6\\share\\doc\\hadoop\\hadoop-yarn\\hadoop-yarn-api\\apidocs\\script.js",
+      "loc": 29,
+      "complexity": 6,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 5.09,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-3.3.6\\share\\doc\\hadoop\\hadoop-yarn\\hadoop-yarn-applications\\hadoop-yarn-applications-distributedshell\\apidocs\\script.js",
+      "loc": 29,
+      "complexity": 6,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 5.09,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-3.3.6\\share\\doc\\hadoop\\hadoop-yarn\\hadoop-yarn-applications\\hadoop-yarn-applications-mawo\\hadoop-yarn-applications-mawo-core\\apidocs\\script.js",
+      "loc": 29,
+      "complexity": 6,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 5.09,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-3.3.6\\share\\doc\\hadoop\\hadoop-yarn\\hadoop-yarn-applications\\hadoop-yarn-applications-unmanaged-am-launcher\\apidocs\\script.js",
+      "loc": 29,
+      "complexity": 6,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 5.09,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-3.3.6\\share\\doc\\hadoop\\hadoop-yarn\\hadoop-yarn-client\\apidocs\\script.js",
+      "loc": 29,
+      "complexity": 6,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 5.09,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-3.3.6\\share\\doc\\hadoop\\hadoop-yarn\\hadoop-yarn-common\\apidocs\\script.js",
+      "loc": 29,
+      "complexity": 6,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 5.09,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-3.3.6\\share\\doc\\hadoop\\hadoop-yarn\\hadoop-yarn-csi\\apidocs\\script.js",
+      "loc": 29,
+      "complexity": 6,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 5.09,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-3.3.6\\share\\doc\\hadoop\\hadoop-yarn\\hadoop-yarn-server\\hadoop-yarn-server-applicationhistoryservice\\apidocs\\script.js",
+      "loc": 29,
+      "complexity": 6,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 5.09,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-3.3.6\\share\\doc\\hadoop\\hadoop-yarn\\hadoop-yarn-server\\hadoop-yarn-server-common\\apidocs\\script.js",
+      "loc": 29,
+      "complexity": 6,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 5.09,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-3.3.6\\share\\doc\\hadoop\\hadoop-yarn\\hadoop-yarn-server\\hadoop-yarn-server-nodemanager\\apidocs\\script.js",
+      "loc": 29,
+      "complexity": 6,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 5.09,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-3.3.6\\share\\doc\\hadoop\\hadoop-yarn\\hadoop-yarn-server\\hadoop-yarn-server-resourcemanager\\apidocs\\script.js",
+      "loc": 29,
+      "complexity": 6,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 5.09,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-3.3.6\\share\\doc\\hadoop\\hadoop-yarn\\hadoop-yarn-server\\hadoop-yarn-server-router\\apidocs\\script.js",
+      "loc": 29,
+      "complexity": 6,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 5.09,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-3.3.6\\share\\doc\\hadoop\\hadoop-yarn\\hadoop-yarn-server\\hadoop-yarn-server-sharedcachemanager\\apidocs\\script.js",
+      "loc": 29,
+      "complexity": 6,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 5.09,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-3.3.6\\share\\doc\\hadoop\\hadoop-yarn\\hadoop-yarn-server\\hadoop-yarn-server-timeline-pluginstorage\\apidocs\\script.js",
+      "loc": 29,
+      "complexity": 6,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 5.09,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-3.3.6\\share\\doc\\hadoop\\hadoop-yarn\\hadoop-yarn-server\\hadoop-yarn-server-timelineservice\\apidocs\\script.js",
+      "loc": 29,
+      "complexity": 6,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 5.09,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-3.3.6\\share\\doc\\hadoop\\hadoop-yarn\\hadoop-yarn-server\\hadoop-yarn-server-timelineservice-documentstore\\apidocs\\script.js",
+      "loc": 29,
+      "complexity": 6,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 5.09,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-3.3.6\\share\\doc\\hadoop\\hadoop-yarn\\hadoop-yarn-server\\hadoop-yarn-server-timelineservice-hbase\\hadoop-yarn-server-timelineservice-hbase-client\\apidocs\\script.js",
+      "loc": 29,
+      "complexity": 6,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 5.09,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-3.3.6\\share\\doc\\hadoop\\hadoop-yarn\\hadoop-yarn-server\\hadoop-yarn-server-timelineservice-hbase\\hadoop-yarn-server-timelineservice-hbase-common\\apidocs\\script.js",
+      "loc": 29,
+      "complexity": 6,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 5.09,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-3.3.6\\share\\doc\\hadoop\\hadoop-yarn\\hadoop-yarn-server\\hadoop-yarn-server-timelineservice-hbase\\hadoop-yarn-server-timelineservice-hbase-server\\hadoop-yarn-server-timelineservice-hbase-server-1\\apidocs\\script.js",
+      "loc": 29,
+      "complexity": 6,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 5.09,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-3.3.6\\share\\doc\\hadoop\\hadoop-yarn\\hadoop-yarn-server\\hadoop-yarn-server-web-proxy\\apidocs\\script.js",
+      "loc": 29,
+      "complexity": 6,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 5.09,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\doc\\hadoop\\api\\script.js",
+      "loc": 29,
+      "complexity": 6,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 5.09,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\doc\\hadoop\\hadoop-auth\\apidocs\\script.js",
+      "loc": 29,
+      "complexity": 6,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 5.09,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\doc\\hadoop\\hadoop-hdfs-httpfs\\apidocs\\script.js",
+      "loc": 29,
+      "complexity": 6,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 5.09,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\doc\\hadoop\\hadoop-mapreduce-client\\hadoop-mapreduce-client-app\\apidocs\\script.js",
+      "loc": 29,
+      "complexity": 6,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 5.09,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\doc\\hadoop\\hadoop-mapreduce-client\\hadoop-mapreduce-client-common\\apidocs\\script.js",
+      "loc": 29,
+      "complexity": 6,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 5.09,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\doc\\hadoop\\hadoop-mapreduce-client\\hadoop-mapreduce-client-hs\\apidocs\\script.js",
+      "loc": 29,
+      "complexity": 6,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 5.09,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\doc\\hadoop\\hadoop-mapreduce-client\\hadoop-mapreduce-client-hs-plugins\\apidocs\\script.js",
+      "loc": 29,
+      "complexity": 6,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 5.09,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\doc\\hadoop\\hadoop-mapreduce-client\\hadoop-mapreduce-client-jobclient\\apidocs\\script.js",
+      "loc": 29,
+      "complexity": 6,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 5.09,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\doc\\hadoop\\hadoop-mapreduce-client\\hadoop-mapreduce-client-nativetask\\apidocs\\script.js",
+      "loc": 29,
+      "complexity": 6,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 5.09,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\doc\\hadoop\\hadoop-mapreduce-client\\hadoop-mapreduce-client-shuffle\\apidocs\\script.js",
+      "loc": 29,
+      "complexity": 6,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 5.09,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\doc\\hadoop\\hadoop-mapreduce-client\\hadoop-mapreduce-client-uploader\\apidocs\\script.js",
+      "loc": 29,
+      "complexity": 6,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 5.09,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\doc\\hadoop\\hadoop-yarn\\hadoop-yarn-api\\apidocs\\script.js",
+      "loc": 29,
+      "complexity": 6,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 5.09,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\doc\\hadoop\\hadoop-yarn\\hadoop-yarn-applications\\hadoop-yarn-applications-distributedshell\\apidocs\\script.js",
+      "loc": 29,
+      "complexity": 6,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 5.09,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\doc\\hadoop\\hadoop-yarn\\hadoop-yarn-applications\\hadoop-yarn-applications-mawo\\hadoop-yarn-applications-mawo-core\\apidocs\\script.js",
+      "loc": 29,
+      "complexity": 6,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 5.09,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\doc\\hadoop\\hadoop-yarn\\hadoop-yarn-applications\\hadoop-yarn-applications-unmanaged-am-launcher\\apidocs\\script.js",
+      "loc": 29,
+      "complexity": 6,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 5.09,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\doc\\hadoop\\hadoop-yarn\\hadoop-yarn-client\\apidocs\\script.js",
+      "loc": 29,
+      "complexity": 6,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 5.09,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\doc\\hadoop\\hadoop-yarn\\hadoop-yarn-common\\apidocs\\script.js",
+      "loc": 29,
+      "complexity": 6,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 5.09,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\doc\\hadoop\\hadoop-yarn\\hadoop-yarn-csi\\apidocs\\script.js",
+      "loc": 29,
+      "complexity": 6,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 5.09,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\doc\\hadoop\\hadoop-yarn\\hadoop-yarn-server\\hadoop-yarn-server-applicationhistoryservice\\apidocs\\script.js",
+      "loc": 29,
+      "complexity": 6,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 5.09,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\doc\\hadoop\\hadoop-yarn\\hadoop-yarn-server\\hadoop-yarn-server-common\\apidocs\\script.js",
+      "loc": 29,
+      "complexity": 6,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 5.09,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\doc\\hadoop\\hadoop-yarn\\hadoop-yarn-server\\hadoop-yarn-server-nodemanager\\apidocs\\script.js",
+      "loc": 29,
+      "complexity": 6,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 5.09,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\doc\\hadoop\\hadoop-yarn\\hadoop-yarn-server\\hadoop-yarn-server-resourcemanager\\apidocs\\script.js",
+      "loc": 29,
+      "complexity": 6,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 5.09,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\doc\\hadoop\\hadoop-yarn\\hadoop-yarn-server\\hadoop-yarn-server-router\\apidocs\\script.js",
+      "loc": 29,
+      "complexity": 6,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 5.09,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\doc\\hadoop\\hadoop-yarn\\hadoop-yarn-server\\hadoop-yarn-server-sharedcachemanager\\apidocs\\script.js",
+      "loc": 29,
+      "complexity": 6,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 5.09,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\doc\\hadoop\\hadoop-yarn\\hadoop-yarn-server\\hadoop-yarn-server-timeline-pluginstorage\\apidocs\\script.js",
+      "loc": 29,
+      "complexity": 6,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 5.09,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\doc\\hadoop\\hadoop-yarn\\hadoop-yarn-server\\hadoop-yarn-server-timelineservice\\apidocs\\script.js",
+      "loc": 29,
+      "complexity": 6,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 5.09,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\doc\\hadoop\\hadoop-yarn\\hadoop-yarn-server\\hadoop-yarn-server-timelineservice-documentstore\\apidocs\\script.js",
+      "loc": 29,
+      "complexity": 6,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 5.09,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\doc\\hadoop\\hadoop-yarn\\hadoop-yarn-server\\hadoop-yarn-server-timelineservice-hbase\\hadoop-yarn-server-timelineservice-hbase-client\\apidocs\\script.js",
+      "loc": 29,
+      "complexity": 6,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 5.09,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\doc\\hadoop\\hadoop-yarn\\hadoop-yarn-server\\hadoop-yarn-server-timelineservice-hbase\\hadoop-yarn-server-timelineservice-hbase-common\\apidocs\\script.js",
+      "loc": 29,
+      "complexity": 6,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 5.09,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\doc\\hadoop\\hadoop-yarn\\hadoop-yarn-server\\hadoop-yarn-server-web-proxy\\apidocs\\script.js",
+      "loc": 29,
+      "complexity": 6,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 5.09,
+      "is_high_risk": false
+    },
+    {
+      "file": "output\\alerts.py",
+      "loc": 6,
+      "complexity": 2,
+      "coupling": 3,
+      "change_frequency": 0,
+      "score": 4.66,
+      "is_high_risk": false
+    },
+    {
+      "file": "output\\visualize.py",
+      "loc": 6,
+      "complexity": 2,
+      "coupling": 3,
+      "change_frequency": 0,
+      "score": 4.66,
+      "is_high_risk": false
+    },
+    {
+      "file": "preprocessing\\adfa_preprocessor.py",
+      "loc": 6,
+      "complexity": 2,
+      "coupling": 3,
+      "change_frequency": 0,
+      "score": 4.66,
+      "is_high_risk": false
+    },
+    {
+      "file": "preprocessing\\awsctd_preprocessor.py",
+      "loc": 6,
+      "complexity": 2,
+      "coupling": 3,
+      "change_frequency": 0,
+      "score": 4.66,
+      "is_high_risk": false
+    },
+    {
+      "file": "preprocessing\\bgl_preprocessor.py",
+      "loc": 6,
+      "complexity": 2,
+      "coupling": 3,
+      "change_frequency": 0,
+      "score": 4.66,
+      "is_high_risk": false
+    },
+    {
+      "file": "preprocessing\\hadoop_preprocessor.py",
+      "loc": 6,
+      "complexity": 2,
+      "coupling": 3,
+      "change_frequency": 0,
+      "score": 4.66,
+      "is_high_risk": false
+    },
+    {
+      "file": "preprocessing\\hdfs_preprocessor.py",
+      "loc": 6,
+      "complexity": 2,
+      "coupling": 3,
+      "change_frequency": 0,
+      "score": 4.66,
+      "is_high_risk": false
+    },
+    {
+      "file": "preprocessing\\openstack_preprocessor.py",
+      "loc": 6,
+      "complexity": 2,
+      "coupling": 3,
+      "change_frequency": 0,
+      "score": 4.66,
+      "is_high_risk": false
+    },
+    {
+      "file": "stage1\\train_stage1.py",
+      "loc": 6,
+      "complexity": 2,
+      "coupling": 3,
+      "change_frequency": 0,
+      "score": 4.66,
+      "is_high_risk": false
+    },
+    {
+      "file": "stage2\\train_adfa.py",
+      "loc": 6,
+      "complexity": 2,
+      "coupling": 3,
+      "change_frequency": 0,
+      "score": 4.66,
+      "is_high_risk": false
+    },
+    {
+      "file": "stage2\\train_awsctd.py",
+      "loc": 6,
+      "complexity": 2,
+      "coupling": 3,
+      "change_frequency": 0,
+      "score": 4.66,
+      "is_high_risk": false
+    },
+    {
+      "file": "stage2\\train_bgl.py",
+      "loc": 6,
+      "complexity": 2,
+      "coupling": 3,
+      "change_frequency": 0,
+      "score": 4.66,
+      "is_high_risk": false
+    },
+    {
+      "file": "stage2\\train_hadoop.py",
+      "loc": 6,
+      "complexity": 2,
+      "coupling": 3,
+      "change_frequency": 0,
+      "score": 4.66,
+      "is_high_risk": false
+    },
+    {
+      "file": "stage2\\train_hdfs.py",
+      "loc": 6,
+      "complexity": 2,
+      "coupling": 3,
+      "change_frequency": 0,
+      "score": 4.66,
+      "is_high_risk": false
+    },
+    {
+      "file": "stage2\\train_openstack.py",
+      "loc": 6,
+      "complexity": 2,
+      "coupling": 3,
+      "change_frequency": 0,
+      "score": 4.66,
+      "is_high_risk": false
+    },
+    {
+      "file": "threat_graph\\build_graph.py",
+      "loc": 6,
+      "complexity": 2,
+      "coupling": 3,
+      "change_frequency": 0,
+      "score": 4.66,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\hadoop\\hdfs\\webapps\\datanode\\dn.js",
+      "loc": 60,
+      "complexity": 5,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 4.6,
+      "is_high_risk": false
+    },
+    {
+      "file": "config.py",
+      "loc": 26,
+      "complexity": 2,
+      "coupling": 1,
+      "change_frequency": 0,
+      "score": 2.86,
+      "is_high_risk": false
+    },
+    {
+      "file": "run_pipeline.py",
+      "loc": 3,
+      "complexity": 2,
+      "coupling": 1,
+      "change_frequency": 0,
+      "score": 2.63,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-3.3.6\\share\\hadoop\\common\\jdiff\\Null.java",
+      "loc": 20,
+      "complexity": 3,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 2.6,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\hadoop\\common\\jdiff\\Null.java",
+      "loc": 20,
+      "complexity": 3,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 2.6,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\hadoop\\hdfs\\jdiff\\Null.java",
+      "loc": 20,
+      "complexity": 3,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 2.6,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\hadoop\\mapreduce\\jdiff\\Null.java",
+      "loc": 20,
+      "complexity": 3,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 2.6,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\hadoop\\hdfs\\webapps\\static\\bootstrap-3.4.1\\js\\npm.js",
+      "loc": 13,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 0.93,
+      "is_high_risk": false
+    },
+    {
+      "file": "features\\__init__.py",
+      "loc": 0,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 0.8,
+      "is_high_risk": false
+    },
+    {
+      "file": "output\\__init__.py",
+      "loc": 0,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 0.8,
+      "is_high_risk": false
+    },
+    {
+      "file": "preprocessing\\__init__.py",
+      "loc": 0,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 0.8,
+      "is_high_risk": false
+    },
+    {
+      "file": "stage1\\__init__.py",
+      "loc": 0,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 0.8,
+      "is_high_risk": false
+    },
+    {
+      "file": "stage2\\__init__.py",
+      "loc": 0,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 0.8,
+      "is_high_risk": false
+    },
+    {
+      "file": "threat_graph\\__init__.py",
+      "loc": 0,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 0.8,
+      "is_high_risk": false
+    }
+  ],
+  "high_risk_files": [],
+  "top_risk_files": [
+    {
+      "file": "cyber_pipeline.py",
+      "loc": 923,
+      "complexity": 159,
+      "coupling": 24,
+      "change_frequency": 0,
+      "score": 69.23,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-3.3.6\\include\\hdfs.h",
+      "loc": 1106,
+      "complexity": 84,
+      "coupling": 4,
+      "change_frequency": 0,
+      "score": 54.0,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\include\\hdfs.h",
+      "loc": 1106,
+      "complexity": 84,
+      "coupling": 4,
+      "change_frequency": 0,
+      "score": 54.0,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-3.3.6\\share\\hadoop\\tools\\sls\\html\\js\\thirdparty\\d3.v3.js",
+      "loc": 8809,
+      "complexity": 1811,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 50.0,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-3.3.6\\share\\hadoop\\tools\\sls\\html\\js\\thirdparty\\jquery.js",
+      "loc": 8796,
+      "complexity": 2449,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 50.0,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-3.3.6\\share\\hadoop\\yarn\\webapps\\ui2\\assets\\vendor.js",
+      "loc": 8455,
+      "complexity": 22665,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 50.0,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\hadoop\\hdfs\\webapps\\static\\bootstrap-3.4.1\\js\\bootstrap.js",
+      "loc": 1963,
+      "complexity": 468,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 50.0,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\hadoop\\tools\\sls\\html\\js\\thirdparty\\d3.v3.js",
+      "loc": 8809,
+      "complexity": 1811,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 50.0,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\hadoop\\tools\\sls\\html\\js\\thirdparty\\jquery.js",
+      "loc": 8796,
+      "complexity": 2449,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 50.0,
+      "is_high_risk": false
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\hadoop\\yarn\\webapps\\ui2\\assets\\vendor.js",
+      "loc": 8455,
+      "complexity": 22665,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 50.0,
+      "is_high_risk": false
+    }
+  ],
+  "recommendations": [
+    {
+      "file": "cyber_pipeline.py",
+      "score": 69.23,
+      "priority": "critical",
+      "actions": [
+        "Break down complex logic in `cyber_pipeline.py` \u2014 cyclomatic complexity is critically high (159). Split into smaller functions.",
+        "`cyber_pipeline.py` has too many dependencies (24 imports). Apply dependency injection and interface abstractions.",
+        "`cyber_pipeline.py` is very large (923 lines). Split into multiple focused modules following Single Responsibility Principle."
+      ]
+    },
+    {
+      "file": "hadoop-3.3.6\\include\\hdfs.h",
+      "score": 54.0,
+      "priority": "critical",
+      "actions": [
+        "Break down complex logic in `hdfs.h` \u2014 cyclomatic complexity is critically high (84). Split into smaller functions.",
+        "`hdfs.h` is very large (1106 lines). Split into multiple focused modules following Single Responsibility Principle."
+      ]
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\include\\hdfs.h",
+      "score": 54.0,
+      "priority": "critical",
+      "actions": [
+        "Break down complex logic in `hdfs.h` \u2014 cyclomatic complexity is critically high (84). Split into smaller functions.",
+        "`hdfs.h` is very large (1106 lines). Split into multiple focused modules following Single Responsibility Principle."
+      ]
+    },
+    {
+      "file": "hadoop-3.3.6\\share\\hadoop\\tools\\sls\\html\\js\\thirdparty\\d3.v3.js",
+      "score": 50.0,
+      "priority": "critical",
+      "actions": [
+        "Break down complex logic in `d3.v3.js` \u2014 cyclomatic complexity is critically high (1811). Split into smaller functions.",
+        "`d3.v3.js` is very large (8809 lines). Split into multiple focused modules following Single Responsibility Principle."
+      ]
+    },
+    {
+      "file": "hadoop-3.3.6\\share\\hadoop\\tools\\sls\\html\\js\\thirdparty\\jquery.js",
+      "score": 50.0,
+      "priority": "critical",
+      "actions": [
+        "Break down complex logic in `jquery.js` \u2014 cyclomatic complexity is critically high (2449). Split into smaller functions.",
+        "`jquery.js` is very large (8796 lines). Split into multiple focused modules following Single Responsibility Principle."
+      ]
+    },
+    {
+      "file": "hadoop-3.3.6\\share\\hadoop\\yarn\\webapps\\ui2\\assets\\vendor.js",
+      "score": 50.0,
+      "priority": "critical",
+      "actions": [
+        "Break down complex logic in `vendor.js` \u2014 cyclomatic complexity is critically high (22665). Split into smaller functions.",
+        "`vendor.js` is very large (8455 lines). Split into multiple focused modules following Single Responsibility Principle."
+      ]
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\hadoop\\hdfs\\webapps\\static\\bootstrap-3.4.1\\js\\bootstrap.js",
+      "score": 50.0,
+      "priority": "critical",
+      "actions": [
+        "Break down complex logic in `bootstrap.js` \u2014 cyclomatic complexity is critically high (468). Split into smaller functions.",
+        "`bootstrap.js` is very large (1963 lines). Split into multiple focused modules following Single Responsibility Principle."
+      ]
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\hadoop\\tools\\sls\\html\\js\\thirdparty\\d3.v3.js",
+      "score": 50.0,
+      "priority": "critical",
+      "actions": [
+        "Break down complex logic in `d3.v3.js` \u2014 cyclomatic complexity is critically high (1811). Split into smaller functions.",
+        "`d3.v3.js` is very large (8809 lines). Split into multiple focused modules following Single Responsibility Principle."
+      ]
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\hadoop\\tools\\sls\\html\\js\\thirdparty\\jquery.js",
+      "score": 50.0,
+      "priority": "critical",
+      "actions": [
+        "Break down complex logic in `jquery.js` \u2014 cyclomatic complexity is critically high (2449). Split into smaller functions.",
+        "`jquery.js` is very large (8796 lines). Split into multiple focused modules following Single Responsibility Principle."
+      ]
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\hadoop\\yarn\\webapps\\ui2\\assets\\vendor.js",
+      "score": 50.0,
+      "priority": "critical",
+      "actions": [
+        "Break down complex logic in `vendor.js` \u2014 cyclomatic complexity is critically high (22665). Split into smaller functions.",
+        "`vendor.js` is very large (8455 lines). Split into multiple focused modules following Single Responsibility Principle."
+      ]
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\hadoop\\hdfs\\webapps\\hdfs\\explorer.js",
+      "score": 44.96,
+      "priority": "critical",
+      "actions": [
+        "Break down complex logic in `explorer.js` \u2014 cyclomatic complexity is critically high (50). Split into smaller functions.",
+        "Consider splitting `explorer.js` (496 lines) into smaller, focused files."
+      ]
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\hadoop\\hdfs\\webapps\\router\\explorer.js",
+      "score": 44.96,
+      "priority": "critical",
+      "actions": [
+        "Break down complex logic in `explorer.js` \u2014 cyclomatic complexity is critically high (50). Split into smaller functions.",
+        "Consider splitting `explorer.js` (496 lines) into smaller, focused files."
+      ]
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\hadoop\\hdfs\\webapps\\router\\federationhealth.js",
+      "score": 44.82,
+      "priority": "critical",
+      "actions": [
+        "Break down complex logic in `federationhealth.js` \u2014 cyclomatic complexity is critically high (65). Split into smaller functions.",
+        "Consider splitting `federationhealth.js` (482 lines) into smaller, focused files."
+      ]
+    },
+    {
+      "file": "hadoop-install\\hadoop-3.3.6\\share\\hadoop\\hdfs\\webapps\\hdfs\\dfshealth.js",
+      "score": 44.55,
+      "priority": "critical",
+      "actions": [
+        "Break down complex logic in `dfshealth.js` \u2014 cyclomatic complexity is critically high (57). Split into smaller functions.",
+        "Consider splitting `dfshealth.js` (455 lines) into smaller, focused files."
+      ]
+    },
+    {
+      "file": "hadoop-3.3.6\\share\\hadoop\\yarn\\webapps\\ui2\\assets\\yarn-ui.js",
+      "score": 44.22,
+      "priority": "critical",
+      "actions": [
+        "Break down complex logic in `yarn-ui.js` \u2014 cyclomatic complexity is critically high (1295). Split into smaller functions.",
+        "Consider splitting `yarn-ui.js` (422 lines) into smaller, focused files."
+      ]
+    }
+  ]
+}

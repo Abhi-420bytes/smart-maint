@@ -1,0 +1,27 @@
+# STORY-13: Render deployment configuration for SMART-MAINT backend
+# Deploy at: https://dashboard.render.com → New → Blueprint → point to this repo
+
+services:
+  # ── Backend API (FastAPI) ──────────────────────────────────────────────────
+  - type: web
+    name: smart-maint-backend
+    runtime: python
+    region: oregon
+    plan: free
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.11"
+      - key: S3_BUCKET_NAME
+        sync: false          # set manually in Render dashboard
+      - key: AWS_REGION
+        value: us-east-1
+      - key: GITHUB_WEBHOOK_SECRET
+        sync: false          # set manually in Render dashboard
+      - key: WEBHOOK_SCAN_PATH
+        sync: false          # set manually in Render dashboard
+      - key: LOCAL_REPORTS_DIR
+        value: /opt/render/project/src/reports

@@ -1,0 +1,5757 @@
+{
+  "metadata": {
+    "project": "project",
+    "generated_at": "2026-05-11T07:13:29.487956+00:00",
+    "tool": "SMART-MAINT v2.0"
+  },
+  "summary": {
+    "total_files": 621,
+    "total_loc": 188051,
+    "average_complexity": 2.24,
+    "average_maintenance_score": 4.39,
+    "high_risk_count": 0,
+    "medium_risk_count": 5,
+    "low_risk_count": 616
+  },
+  "details": [
+    {
+      "file": "backend\\main.py",
+      "loc": 425,
+      "complexity": 59,
+      "coupling": 25,
+      "change_frequency": 0,
+      "score": 64.25,
+      "is_high_risk": false
+    },
+    {
+      "file": "frontend\\src\\pages\\AuthPage.jsx",
+      "loc": 602,
+      "complexity": 73,
+      "coupling": 9,
+      "change_frequency": 0,
+      "score": 55.02,
+      "is_high_risk": false
+    },
+    {
+      "file": "frontend\\src\\components\\Dashboard.jsx",
+      "loc": 1188,
+      "complexity": 257,
+      "coupling": 4,
+      "change_frequency": 0,
+      "score": 54.0,
+      "is_high_risk": false
+    },
+    {
+      "file": "frontend\\package-lock.json",
+      "loc": 5806,
+      "complexity": 120,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 50.0,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\chatbot.py",
+      "loc": 276,
+      "complexity": 102,
+      "coupling": 2,
+      "change_frequency": 0,
+      "score": 44.76,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\github_analyzer.py",
+      "loc": 114,
+      "complexity": 31,
+      "coupling": 8,
+      "change_frequency": 0,
+      "score": 33.94,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\scanner.py",
+      "loc": 97,
+      "complexity": 27,
+      "coupling": 3,
+      "change_frequency": 0,
+      "score": 25.57,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\pdf_report.py",
+      "loc": 226,
+      "complexity": 19,
+      "coupling": 8,
+      "change_frequency": 0,
+      "score": 25.46,
+      "is_high_risk": false
+    },
+    {
+      "file": "frontend\\src\\test\\Dashboard.test.jsx",
+      "loc": 286,
+      "complexity": 11,
+      "coupling": 12,
+      "change_frequency": 0,
+      "score": 23.66,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\tests\\test_api.py",
+      "loc": 155,
+      "complexity": 6,
+      "coupling": 16,
+      "change_frequency": 0,
+      "score": 22.35,
+      "is_high_risk": false
+    },
+    {
+      "file": "frontend\\src\\pages\\GitHubCallback.jsx",
+      "loc": 87,
+      "complexity": 13,
+      "coupling": 8,
+      "change_frequency": 0,
+      "score": 19.27,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\scoring.py",
+      "loc": 119,
+      "complexity": 22,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 18.79,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\auth.py",
+      "loc": 98,
+      "complexity": 13,
+      "coupling": 3,
+      "change_frequency": 0,
+      "score": 14.38,
+      "is_high_risk": false
+    },
+    {
+      "file": "frontend\\src\\main.jsx",
+      "loc": 24,
+      "complexity": 1,
+      "coupling": 13,
+      "change_frequency": 0,
+      "score": 14.04,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\cloud_storage.py",
+      "loc": 119,
+      "complexity": 8,
+      "coupling": 6,
+      "change_frequency": 0,
+      "score": 13.59,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\traffic.py",
+      "loc": 129,
+      "complexity": 12,
+      "coupling": 1,
+      "change_frequency": 0,
+      "score": 11.89,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260511_064045.json",
+      "loc": 5739,
+      "complexity": 2,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 11.6,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260510_090233.json",
+      "loc": 1392,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 10.8,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_Hados_20260511_064623.json",
+      "loc": 801,
+      "complexity": 3,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 10.41,
+      "is_high_risk": false
+    },
+    {
+      "file": ".github\\workflows\\deploy.yml",
+      "loc": 77,
+      "complexity": 7,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 6.37,
+      "is_high_risk": false
+    },
+    {
+      "file": "frontend\\vite.config.js",
+      "loc": 12,
+      "complexity": 1,
+      "coupling": 4,
+      "change_frequency": 0,
+      "score": 4.92,
+      "is_high_risk": false
+    },
+    {
+      "file": "frontend\\src\\App.jsx",
+      "loc": 7,
+      "complexity": 1,
+      "coupling": 4,
+      "change_frequency": 0,
+      "score": 4.87,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260511_032331.json",
+      "loc": 331,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 4.11,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260511_032812.json",
+      "loc": 331,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 4.11,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260511_034923.json",
+      "loc": 331,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 4.11,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260511_040718.json",
+      "loc": 331,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 4.11,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260511_043241.json",
+      "loc": 331,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 4.11,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260511_043424.json",
+      "loc": 331,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 4.11,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260511_045635.json",
+      "loc": 331,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 4.11,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_093151.json",
+      "loc": 301,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.81,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_093224.json",
+      "loc": 301,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.81,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_093257.json",
+      "loc": 301,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.81,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_093330.json",
+      "loc": 301,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.81,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_093403.json",
+      "loc": 301,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.81,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_093436.json",
+      "loc": 301,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.81,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_093509.json",
+      "loc": 301,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.81,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_093541.json",
+      "loc": 301,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.81,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_093614.json",
+      "loc": 301,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.81,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_093646.json",
+      "loc": 301,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.81,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_093718.json",
+      "loc": 301,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.81,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_093750.json",
+      "loc": 301,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.81,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_093822.json",
+      "loc": 301,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.81,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_093855.json",
+      "loc": 301,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.81,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_093927.json",
+      "loc": 301,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.81,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_092200.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_092312.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_092345.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_092417.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_092450.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_092522.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_092554.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_092626.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_092658.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_092730.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_092802.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_092834.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_092907.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_092940.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_093013.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_093045.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_093118.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_094000.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_094032.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_094104.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_094136.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_094208.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_094240.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_094312.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_094345.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_094417.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_094450.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_094522.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_094555.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_094627.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_094700.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_094733.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_094804.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_094837.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_094909.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_094941.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_095013.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_095046.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_095119.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_095152.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_095225.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_095258.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_095331.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_095404.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_095437.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_095510.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_095543.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_095616.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_095649.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_095722.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_095755.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_095828.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_095901.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_095934.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_100007.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_100040.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_100113.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_100146.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_100219.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_100252.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_100325.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_100358.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_100431.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_100504.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_100537.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_100610.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_100643.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_100716.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_100749.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_100822.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_100854.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_100927.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_101000.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_101033.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_101106.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_101139.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_101213.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_101245.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_101318.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_101350.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_101422.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_101454.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_101526.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_101558.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_101630.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_101704.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_101737.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_101810.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_101843.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_101918.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_101959.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_102036.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_102114.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_102148.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_102225.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_102301.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_102340.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_102418.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_102455.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_102530.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_102605.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_102639.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_102722.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_102817.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_102920.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_102922.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_102957.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_103029.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_103102.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_103134.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_103206.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_103238.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_103310.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_103342.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_103413.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_103445.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_103517.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_103549.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_103621.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_103653.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_103724.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_103756.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_103828.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_103900.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_103932.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_104004.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_104036.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_104108.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_104139.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_104211.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_104242.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_104314.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_104345.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_104417.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_104449.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_104520.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_104552.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_104624.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_104656.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_104728.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_104800.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_104832.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_104904.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_104935.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_105007.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_105039.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_105111.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_105142.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_105214.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_105246.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_105318.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_105349.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_105421.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_105452.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_105524.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_105556.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_105628.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_105700.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_105732.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_105804.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_105836.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_105908.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_105939.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_110011.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_110043.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_110115.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_110146.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_110218.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_110250.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_110322.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_110353.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_110425.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_110456.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_110527.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_111403.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_111506.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_111530.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_111539.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_111613.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_111646.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_111719.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_111752.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_111824.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_111858.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_111931.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_112003.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_112037.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_112110.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_112143.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_112215.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_112248.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_112321.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_112354.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_112427.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_112459.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_112531.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_112604.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_112637.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_112709.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_112742.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_112814.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_112847.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_112919.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_112953.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_113025.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_113058.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_113131.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_113204.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_113236.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_113309.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_113341.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_113414.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_113446.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_113518.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_113551.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_113623.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_113655.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_113727.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_113800.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_113832.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_115005.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_115037.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_115109.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_115141.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_115213.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_122006.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_122038.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_122140.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_122212.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_122245.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_122317.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_122350.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_122422.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_122455.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_122526.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_122558.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_122630.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_122702.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_122734.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_122806.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_122838.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_122910.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_122942.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_123014.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_123046.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_123119.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_123151.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_123223.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_123255.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_123327.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_123359.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_123431.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_123503.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_123536.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_123608.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_123640.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_123712.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_123744.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_123816.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_123848.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_123920.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_123952.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_124024.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_124056.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_124128.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_124200.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_124233.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_124305.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_124337.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_124409.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_124441.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_124513.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_124545.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_124617.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_124649.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_124724.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_124759.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_124831.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_124903.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_124935.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_125008.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_125040.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_125112.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_125145.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_125218.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_125251.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_125324.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_125357.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_125431.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_125503.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_125539.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_125614.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_125647.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_125721.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_125753.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_125827.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_125902.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_125936.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_130009.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_130042.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_130122.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_130156.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_130229.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_130302.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_130335.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_130408.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_130443.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_130518.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_130551.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_130624.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_130656.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_130729.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_130801.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_130836.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_130911.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_130946.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_131020.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_131054.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_131128.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_131203.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_131236.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_131309.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_131342.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_131415.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_131448.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_131524.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_131557.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_131633.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_131706.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_131739.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_131813.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_131849.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_131924.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_131959.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_132032.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_132105.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_132138.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_132212.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_132245.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_132320.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_132355.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_132429.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_132504.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_132538.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_132610.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_132643.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_132716.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_132750.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_132824.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_132858.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_132931.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_133006.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_133039.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_133113.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_133146.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_133220.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_133253.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_133327.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_133401.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_133435.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_133508.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_133542.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_133617.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_133651.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_133725.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_133759.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_133832.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_133906.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_133939.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_134013.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_134047.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_134121.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_134155.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_134229.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_134302.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_134336.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_134409.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_134442.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_134515.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_134549.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_134621.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_134655.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_134729.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_134803.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_134837.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_134909.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_134942.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_135016.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_135050.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_135124.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_135158.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_135232.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_135306.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_135340.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_135414.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_135449.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_135523.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_135557.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_135631.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_135706.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_135738.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_135812.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_135846.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_135920.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_135954.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_140028.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_140102.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_140136.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_140209.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_140243.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_140317.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_140351.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_140425.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_140459.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_140533.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_140608.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_140641.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_140716.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_140750.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_140825.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_140858.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_140932.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_141006.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_141039.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_141112.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_141145.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_141218.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_141252.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_141325.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_141359.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_141433.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_141507.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_141540.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_141614.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_141648.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_141722.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_141755.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_141829.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_141902.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_141936.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_142009.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_142043.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_142117.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_142151.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_142224.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_142258.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_142332.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_142406.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_142439.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_142513.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_142546.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_142621.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_142654.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_142728.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_142801.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_142835.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_142908.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_142942.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_143015.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_143049.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_143122.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_143156.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_143229.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_143303.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_143336.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_143410.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_143443.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_143518.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_143551.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_143625.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_143658.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_143731.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_143803.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_143836.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_143909.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_143942.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_144014.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_144047.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_144118.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_144151.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_144224.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_144258.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_144331.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_144404.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_144437.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_144510.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_144543.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_144615.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_144648.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_144721.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_144754.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_144826.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_144858.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_144930.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_145003.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_145036.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_145108.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_145141.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_145219.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_145255.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_145328.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_145401.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_145434.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_145511.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_145548.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_145625.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_145707.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_145741.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_145817.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_145854.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_145931.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_150004.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_150037.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_150118.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_150156.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_150240.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_150318.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_150353.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_150429.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_150511.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_150550.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_150623.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_150657.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_150732.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_150806.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_150841.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_150918.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_151001.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_151050.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_151136.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_151213.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_151251.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_151326.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_151404.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_151442.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_151519.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_151557.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_151632.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_151707.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_151746.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_151824.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_151900.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_151938.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_152011.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_152050.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_152125.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_152159.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_152237.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_152311.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260510_090047.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260510_092316.json",
+      "loc": 292,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.72,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260504_040525.json",
+      "loc": 246,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.26,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260509_065914.json",
+      "loc": 246,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 3.26,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260503_204210.json",
+      "loc": 147,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 2.27,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260503_204256.json",
+      "loc": 147,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 2.27,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260503_205126.json",
+      "loc": 147,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 2.27,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260504_040034.json",
+      "loc": 147,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 2.27,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_project_20260504_101016.json",
+      "loc": 147,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 2.27,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_test_project_20260503_204211.json",
+      "loc": 147,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 2.27,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_test_project_20260503_204257.json",
+      "loc": 147,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 2.27,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_test_project_20260503_205127.json",
+      "loc": 147,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 2.27,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_test_project_20260504_040035.json",
+      "loc": 147,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 2.27,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_test_project_20260504_101018.json",
+      "loc": 147,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 2.27,
+      "is_high_risk": false
+    },
+    {
+      "file": "render.yaml",
+      "loc": 26,
+      "complexity": 2,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 1.86,
+      "is_high_risk": false
+    },
+    {
+      "file": "frontend\\src\\test\\setup.js",
+      "loc": 3,
+      "complexity": 1,
+      "coupling": 1,
+      "change_frequency": 0,
+      "score": 1.83,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_Clarity-Assessment-in-Viva-Answers-in-textual-content-1-_20260511_051219.json",
+      "loc": 78,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 1.58,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_test-repo_20260503_204212.json",
+      "loc": 77,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 1.57,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_test-repo_20260503_204258.json",
+      "loc": 77,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 1.57,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_test-repo_20260503_205128.json",
+      "loc": 77,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 1.57,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_test-repo_20260504_040036.json",
+      "loc": 77,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 1.57,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\reports\\report_test-repo_20260504_101020.json",
+      "loc": 77,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 1.57,
+      "is_high_risk": false
+    },
+    {
+      "file": "frontend\\package.json",
+      "loc": 36,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 1.16,
+      "is_high_risk": false
+    },
+    {
+      "file": "frontend\\vercel.json",
+      "loc": 27,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 1.07,
+      "is_high_risk": false
+    },
+    {
+      "file": "frontend\\tailwind.config.js",
+      "loc": 17,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 0.97,
+      "is_high_risk": false
+    },
+    {
+      "file": "package-lock.json",
+      "loc": 6,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 0.86,
+      "is_high_risk": false
+    },
+    {
+      "file": "frontend\\postcss.config.js",
+      "loc": 6,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 0.86,
+      "is_high_risk": false
+    },
+    {
+      "file": ".vscode\\settings.json",
+      "loc": 2,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 0.82,
+      "is_high_risk": false
+    }
+  ],
+  "high_risk_files": [],
+  "top_risk_files": [
+    {
+      "file": "backend\\main.py",
+      "loc": 425,
+      "complexity": 59,
+      "coupling": 25,
+      "change_frequency": 0,
+      "score": 64.25,
+      "is_high_risk": false
+    },
+    {
+      "file": "frontend\\src\\pages\\AuthPage.jsx",
+      "loc": 602,
+      "complexity": 73,
+      "coupling": 9,
+      "change_frequency": 0,
+      "score": 55.02,
+      "is_high_risk": false
+    },
+    {
+      "file": "frontend\\src\\components\\Dashboard.jsx",
+      "loc": 1188,
+      "complexity": 257,
+      "coupling": 4,
+      "change_frequency": 0,
+      "score": 54.0,
+      "is_high_risk": false
+    },
+    {
+      "file": "frontend\\package-lock.json",
+      "loc": 5806,
+      "complexity": 120,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 50.0,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\chatbot.py",
+      "loc": 276,
+      "complexity": 102,
+      "coupling": 2,
+      "change_frequency": 0,
+      "score": 44.76,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\github_analyzer.py",
+      "loc": 114,
+      "complexity": 31,
+      "coupling": 8,
+      "change_frequency": 0,
+      "score": 33.94,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\scanner.py",
+      "loc": 97,
+      "complexity": 27,
+      "coupling": 3,
+      "change_frequency": 0,
+      "score": 25.57,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\pdf_report.py",
+      "loc": 226,
+      "complexity": 19,
+      "coupling": 8,
+      "change_frequency": 0,
+      "score": 25.46,
+      "is_high_risk": false
+    },
+    {
+      "file": "frontend\\src\\test\\Dashboard.test.jsx",
+      "loc": 286,
+      "complexity": 11,
+      "coupling": 12,
+      "change_frequency": 0,
+      "score": 23.66,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\tests\\test_api.py",
+      "loc": 155,
+      "complexity": 6,
+      "coupling": 16,
+      "change_frequency": 0,
+      "score": 22.35,
+      "is_high_risk": false
+    }
+  ],
+  "recommendations": [
+    {
+      "file": "backend\\main.py",
+      "score": 64.25,
+      "priority": "critical",
+      "actions": [
+        "Break down complex logic in `main.py` \u2014 cyclomatic complexity is critically high (59). Split into smaller functions.",
+        "`main.py` has too many dependencies (25 imports). Apply dependency injection and interface abstractions.",
+        "Consider splitting `main.py` (425 lines) into smaller, focused files."
+      ]
+    },
+    {
+      "file": "frontend\\src\\pages\\AuthPage.jsx",
+      "score": 55.02,
+      "priority": "critical",
+      "actions": [
+        "Break down complex logic in `AuthPage.jsx` \u2014 cyclomatic complexity is critically high (73). Split into smaller functions.",
+        "Reduce coupling in `AuthPage.jsx` (9 imports). Move shared utilities to a common module.",
+        "Consider splitting `AuthPage.jsx` (602 lines) into smaller, focused files.",
+        "Security-sensitive file detected: `AuthPage.jsx`. Conduct a security review and ensure input validation."
+      ]
+    },
+    {
+      "file": "frontend\\src\\components\\Dashboard.jsx",
+      "score": 54.0,
+      "priority": "critical",
+      "actions": [
+        "Break down complex logic in `Dashboard.jsx` \u2014 cyclomatic complexity is critically high (257). Split into smaller functions.",
+        "`Dashboard.jsx` is very large (1188 lines). Split into multiple focused modules following Single Responsibility Principle."
+      ]
+    },
+    {
+      "file": "frontend\\package-lock.json",
+      "score": 50.0,
+      "priority": "critical",
+      "actions": [
+        "Break down complex logic in `package-lock.json` \u2014 cyclomatic complexity is critically high (120). Split into smaller functions.",
+        "`package-lock.json` is very large (5806 lines). Split into multiple focused modules following Single Responsibility Principle."
+      ]
+    },
+    {
+      "file": "backend\\chatbot.py",
+      "score": 44.76,
+      "priority": "critical",
+      "actions": [
+        "Break down complex logic in `chatbot.py` \u2014 cyclomatic complexity is critically high (102). Split into smaller functions."
+      ]
+    },
+    {
+      "file": "backend\\github_analyzer.py",
+      "score": 33.94,
+      "priority": "high",
+      "actions": [
+        "Reduce branching in `github_analyzer.py` (complexity: 31). Replace nested if-else with early returns or strategy pattern."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "metadata": {
+    "project": "project",
+    "generated_at": "2026-05-11T04:56:35.840375+00:00",
+    "tool": "SMART-MAINT v2.0"
+  },
+  "summary": {
+    "total_files": 20,
+    "total_loc": 3939,
+    "average_complexity": 32.5,
+    "average_maintenance_score": 22.29,
+    "high_risk_count": 0,
+    "medium_risk_count": 4,
+    "low_risk_count": 16
+  },
+  "details": [
+    {
+      "file": "backend\\main.py",
+      "loc": 425,
+      "complexity": 59,
+      "coupling": 25,
+      "change_frequency": 0,
+      "score": 64.25,
+      "is_high_risk": false
+    },
+    {
+      "file": "frontend\\src\\pages\\AuthPage.jsx",
+      "loc": 602,
+      "complexity": 73,
+      "coupling": 9,
+      "change_frequency": 0,
+      "score": 55.02,
+      "is_high_risk": false
+    },
+    {
+      "file": "frontend\\src\\components\\Dashboard.jsx",
+      "loc": 1188,
+      "complexity": 257,
+      "coupling": 4,
+      "change_frequency": 0,
+      "score": 54.0,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\chatbot.py",
+      "loc": 276,
+      "complexity": 102,
+      "coupling": 2,
+      "change_frequency": 0,
+      "score": 44.76,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\github_analyzer.py",
+      "loc": 81,
+      "complexity": 23,
+      "coupling": 7,
+      "change_frequency": 0,
+      "score": 26.21,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\pdf_report.py",
+      "loc": 226,
+      "complexity": 19,
+      "coupling": 8,
+      "change_frequency": 0,
+      "score": 25.46,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\scanner.py",
+      "loc": 79,
+      "complexity": 26,
+      "coupling": 3,
+      "change_frequency": 0,
+      "score": 24.59,
+      "is_high_risk": false
+    },
+    {
+      "file": "frontend\\src\\test\\Dashboard.test.jsx",
+      "loc": 286,
+      "complexity": 11,
+      "coupling": 12,
+      "change_frequency": 0,
+      "score": 23.66,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\tests\\test_api.py",
+      "loc": 155,
+      "complexity": 6,
+      "coupling": 16,
+      "change_frequency": 0,
+      "score": 22.35,
+      "is_high_risk": false
+    },
+    {
+      "file": "frontend\\src\\pages\\GitHubCallback.jsx",
+      "loc": 87,
+      "complexity": 13,
+      "coupling": 8,
+      "change_frequency": 0,
+      "score": 19.27,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\scoring.py",
+      "loc": 119,
+      "complexity": 22,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 18.79,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\auth.py",
+      "loc": 98,
+      "complexity": 13,
+      "coupling": 3,
+      "change_frequency": 0,
+      "score": 14.38,
+      "is_high_risk": false
+    },
+    {
+      "file": "frontend\\src\\main.jsx",
+      "loc": 24,
+      "complexity": 1,
+      "coupling": 13,
+      "change_frequency": 0,
+      "score": 14.04,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\cloud_storage.py",
+      "loc": 119,
+      "complexity": 8,
+      "coupling": 6,
+      "change_frequency": 0,
+      "score": 13.59,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\traffic.py",
+      "loc": 129,
+      "complexity": 12,
+      "coupling": 1,
+      "change_frequency": 0,
+      "score": 11.89,
+      "is_high_risk": false
+    },
+    {
+      "file": "frontend\\vite.config.js",
+      "loc": 12,
+      "complexity": 1,
+      "coupling": 4,
+      "change_frequency": 0,
+      "score": 4.92,
+      "is_high_risk": false
+    },
+    {
+      "file": "frontend\\src\\App.jsx",
+      "loc": 7,
+      "complexity": 1,
+      "coupling": 4,
+      "change_frequency": 0,
+      "score": 4.87,
+      "is_high_risk": false
+    },
+    {
+      "file": "frontend\\src\\test\\setup.js",
+      "loc": 3,
+      "complexity": 1,
+      "coupling": 1,
+      "change_frequency": 0,
+      "score": 1.83,
+      "is_high_risk": false
+    },
+    {
+      "file": "frontend\\tailwind.config.js",
+      "loc": 17,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 0.97,
+      "is_high_risk": false
+    },
+    {
+      "file": "frontend\\postcss.config.js",
+      "loc": 6,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 0.86,
+      "is_high_risk": false
+    }
+  ],
+  "high_risk_files": [],
+  "top_risk_files": [
+    {
+      "file": "backend\\main.py",
+      "loc": 425,
+      "complexity": 59,
+      "coupling": 25,
+      "change_frequency": 0,
+      "score": 64.25,
+      "is_high_risk": false
+    },
+    {
+      "file": "frontend\\src\\pages\\AuthPage.jsx",
+      "loc": 602,
+      "complexity": 73,
+      "coupling": 9,
+      "change_frequency": 0,
+      "score": 55.02,
+      "is_high_risk": false
+    },
+    {
+      "file": "frontend\\src\\components\\Dashboard.jsx",
+      "loc": 1188,
+      "complexity": 257,
+      "coupling": 4,
+      "change_frequency": 0,
+      "score": 54.0,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\chatbot.py",
+      "loc": 276,
+      "complexity": 102,
+      "coupling": 2,
+      "change_frequency": 0,
+      "score": 44.76,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\github_analyzer.py",
+      "loc": 81,
+      "complexity": 23,
+      "coupling": 7,
+      "change_frequency": 0,
+      "score": 26.21,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\pdf_report.py",
+      "loc": 226,
+      "complexity": 19,
+      "coupling": 8,
+      "change_frequency": 0,
+      "score": 25.46,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\scanner.py",
+      "loc": 79,
+      "complexity": 26,
+      "coupling": 3,
+      "change_frequency": 0,
+      "score": 24.59,
+      "is_high_risk": false
+    },
+    {
+      "file": "frontend\\src\\test\\Dashboard.test.jsx",
+      "loc": 286,
+      "complexity": 11,
+      "coupling": 12,
+      "change_frequency": 0,
+      "score": 23.66,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\tests\\test_api.py",
+      "loc": 155,
+      "complexity": 6,
+      "coupling": 16,
+      "change_frequency": 0,
+      "score": 22.35,
+      "is_high_risk": false
+    },
+    {
+      "file": "frontend\\src\\pages\\GitHubCallback.jsx",
+      "loc": 87,
+      "complexity": 13,
+      "coupling": 8,
+      "change_frequency": 0,
+      "score": 19.27,
+      "is_high_risk": false
+    }
+  ],
+  "recommendations": [
+    {
+      "file": "backend\\main.py",
+      "score": 64.25,
+      "priority": "critical",
+      "actions": [
+        "Break down complex logic in `main.py` \u2014 cyclomatic complexity is critically high (59). Split into smaller functions.",
+        "`main.py` has too many dependencies (25 imports). Apply dependency injection and interface abstractions.",
+        "Consider splitting `main.py` (425 lines) into smaller, focused files."
+      ]
+    },
+    {
+      "file": "frontend\\src\\pages\\AuthPage.jsx",
+      "score": 55.02,
+      "priority": "critical",
+      "actions": [
+        "Break down complex logic in `AuthPage.jsx` \u2014 cyclomatic complexity is critically high (73). Split into smaller functions.",
+        "Reduce coupling in `AuthPage.jsx` (9 imports). Move shared utilities to a common module.",
+        "Consider splitting `AuthPage.jsx` (602 lines) into smaller, focused files.",
+        "Security-sensitive file detected: `AuthPage.jsx`. Conduct a security review and ensure input validation."
+      ]
+    },
+    {
+      "file": "frontend\\src\\components\\Dashboard.jsx",
+      "score": 54.0,
+      "priority": "critical",
+      "actions": [
+        "Break down complex logic in `Dashboard.jsx` \u2014 cyclomatic complexity is critically high (257). Split into smaller functions.",
+        "`Dashboard.jsx` is very large (1188 lines). Split into multiple focused modules following Single Responsibility Principle."
+      ]
+    },
+    {
+      "file": "backend\\chatbot.py",
+      "score": 44.76,
+      "priority": "critical",
+      "actions": [
+        "Break down complex logic in `chatbot.py` \u2014 cyclomatic complexity is critically high (102). Split into smaller functions."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "project": "Clarity-Assessment-in-Viva-Answers-in-textual-content-1-",
+    "generated_at": "2026-05-11T05:12:19.331378+00:00",
+    "tool": "SMART-MAINT v2.0"
+  },
+  "repo_url": "https://github.com/Mukesh3642/Clarity-Assessment-in-Viva-Answers-in-textual-content-1-",
+  "repo_name": "Clarity-Assessment-in-Viva-Answers-in-textual-content-1-",
+  "summary": {
+    "total_files": 3,
+    "total_loc": 2188,
+    "average_complexity": 19.0,
+    "average_maintenance_score": 23.09,
+    "high_risk_count": 0,
+    "medium_risk_count": 0,
+    "low_risk_count": 3
+  },
+  "details": [
+    {
+      "file": "mpnet.ipynb",
+      "loc": 756,
+      "complexity": 20,
+      "coupling": 0,
+      "change_frequency": 1,
+      "score": 24.16,
+      "is_high_risk": false
+    },
+    {
+      "file": "BERT.ipynb",
+      "loc": 664,
+      "complexity": 20,
+      "coupling": 0,
+      "change_frequency": 1,
+      "score": 23.24,
+      "is_high_risk": false
+    },
+    {
+      "file": "Roberta.ipynb",
+      "loc": 768,
+      "complexity": 17,
+      "coupling": 0,
+      "change_frequency": 1,
+      "score": 21.88,
+      "is_high_risk": false
+    }
+  ],
+  "high_risk_files": [],
+  "top_risk_files": [
+    {
+      "file": "mpnet.ipynb",
+      "loc": 756,
+      "complexity": 20,
+      "coupling": 0,
+      "change_frequency": 1,
+      "score": 24.16,
+      "is_high_risk": false
+    },
+    {
+      "file": "BERT.ipynb",
+      "loc": 664,
+      "complexity": 20,
+      "coupling": 0,
+      "change_frequency": 1,
+      "score": 23.24,
+      "is_high_risk": false
+    },
+    {
+      "file": "Roberta.ipynb",
+      "loc": 768,
+      "complexity": 17,
+      "coupling": 0,
+      "change_frequency": 1,
+      "score": 21.88,
+      "is_high_risk": false
+    }
+  ],
+  "recommendations": []
+}

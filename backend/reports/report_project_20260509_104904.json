@@ -1,0 +1,292 @@
+{
+  "metadata": {
+    "project": "project",
+    "generated_at": "2026-05-09T10:49:04.030795+00:00",
+    "tool": "SMART-MAINT v2.0"
+  },
+  "summary": {
+    "total_files": 17,
+    "total_loc": 2967,
+    "average_complexity": 27.35,
+    "average_maintenance_score": 20.73,
+    "high_risk_count": 0,
+    "medium_risk_count": 3,
+    "low_risk_count": 14
+  },
+  "details": [
+    {
+      "file": "backend\\main.py",
+      "loc": 374,
+      "complexity": 56,
+      "coupling": 23,
+      "change_frequency": 0,
+      "score": 63.74,
+      "is_high_risk": false
+    },
+    {
+      "file": "frontend\\src\\components\\Dashboard.jsx",
+      "loc": 1063,
+      "complexity": 174,
+      "coupling": 6,
+      "change_frequency": 0,
+      "score": 56.0,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\chatbot.py",
+      "loc": 276,
+      "complexity": 102,
+      "coupling": 2,
+      "change_frequency": 0,
+      "score": 44.76,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\github_analyzer.py",
+      "loc": 81,
+      "complexity": 23,
+      "coupling": 7,
+      "change_frequency": 0,
+      "score": 26.21,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\pdf_report.py",
+      "loc": 226,
+      "complexity": 19,
+      "coupling": 8,
+      "change_frequency": 0,
+      "score": 25.46,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\scanner.py",
+      "loc": 79,
+      "complexity": 26,
+      "coupling": 3,
+      "change_frequency": 0,
+      "score": 24.59,
+      "is_high_risk": false
+    },
+    {
+      "file": "frontend\\src\\test\\Dashboard.test.jsx",
+      "loc": 286,
+      "complexity": 11,
+      "coupling": 12,
+      "change_frequency": 0,
+      "score": 23.66,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\tests\\test_api.py",
+      "loc": 155,
+      "complexity": 6,
+      "coupling": 16,
+      "change_frequency": 0,
+      "score": 22.35,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\scoring.py",
+      "loc": 119,
+      "complexity": 22,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 18.79,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\cloud_storage.py",
+      "loc": 119,
+      "complexity": 8,
+      "coupling": 6,
+      "change_frequency": 0,
+      "score": 13.59,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\traffic.py",
+      "loc": 129,
+      "complexity": 12,
+      "coupling": 1,
+      "change_frequency": 0,
+      "score": 11.89,
+      "is_high_risk": false
+    },
+    {
+      "file": "frontend\\src\\main.jsx",
+      "loc": 9,
+      "complexity": 1,
+      "coupling": 7,
+      "change_frequency": 0,
+      "score": 7.89,
+      "is_high_risk": false
+    },
+    {
+      "file": "frontend\\src\\App.jsx",
+      "loc": 13,
+      "complexity": 1,
+      "coupling": 4,
+      "change_frequency": 0,
+      "score": 4.93,
+      "is_high_risk": false
+    },
+    {
+      "file": "frontend\\vite.config.js",
+      "loc": 12,
+      "complexity": 1,
+      "coupling": 4,
+      "change_frequency": 0,
+      "score": 4.92,
+      "is_high_risk": false
+    },
+    {
+      "file": "frontend\\src\\test\\setup.js",
+      "loc": 3,
+      "complexity": 1,
+      "coupling": 1,
+      "change_frequency": 0,
+      "score": 1.83,
+      "is_high_risk": false
+    },
+    {
+      "file": "frontend\\tailwind.config.js",
+      "loc": 17,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 0.97,
+      "is_high_risk": false
+    },
+    {
+      "file": "frontend\\postcss.config.js",
+      "loc": 6,
+      "complexity": 1,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 0.86,
+      "is_high_risk": false
+    }
+  ],
+  "high_risk_files": [],
+  "top_risk_files": [
+    {
+      "file": "backend\\main.py",
+      "loc": 374,
+      "complexity": 56,
+      "coupling": 23,
+      "change_frequency": 0,
+      "score": 63.74,
+      "is_high_risk": false
+    },
+    {
+      "file": "frontend\\src\\components\\Dashboard.jsx",
+      "loc": 1063,
+      "complexity": 174,
+      "coupling": 6,
+      "change_frequency": 0,
+      "score": 56.0,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\chatbot.py",
+      "loc": 276,
+      "complexity": 102,
+      "coupling": 2,
+      "change_frequency": 0,
+      "score": 44.76,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\github_analyzer.py",
+      "loc": 81,
+      "complexity": 23,
+      "coupling": 7,
+      "change_frequency": 0,
+      "score": 26.21,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\pdf_report.py",
+      "loc": 226,
+      "complexity": 19,
+      "coupling": 8,
+      "change_frequency": 0,
+      "score": 25.46,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\scanner.py",
+      "loc": 79,
+      "complexity": 26,
+      "coupling": 3,
+      "change_frequency": 0,
+      "score": 24.59,
+      "is_high_risk": false
+    },
+    {
+      "file": "frontend\\src\\test\\Dashboard.test.jsx",
+      "loc": 286,
+      "complexity": 11,
+      "coupling": 12,
+      "change_frequency": 0,
+      "score": 23.66,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\tests\\test_api.py",
+      "loc": 155,
+      "complexity": 6,
+      "coupling": 16,
+      "change_frequency": 0,
+      "score": 22.35,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\scoring.py",
+      "loc": 119,
+      "complexity": 22,
+      "coupling": 0,
+      "change_frequency": 0,
+      "score": 18.79,
+      "is_high_risk": false
+    },
+    {
+      "file": "backend\\cloud_storage.py",
+      "loc": 119,
+      "complexity": 8,
+      "coupling": 6,
+      "change_frequency": 0,
+      "score": 13.59,
+      "is_high_risk": false
+    }
+  ],
+  "recommendations": [
+    {
+      "file": "backend\\main.py",
+      "score": 63.74,
+      "priority": "critical",
+      "actions": [
+        "Break down complex logic in `main.py` \u2014 cyclomatic complexity is critically high (56). Split into smaller functions.",
+        "`main.py` has too many dependencies (23 imports). Apply dependency injection and interface abstractions."
+      ]
+    },
+    {
+      "file": "frontend\\src\\components\\Dashboard.jsx",
+      "score": 56.0,
+      "priority": "critical",
+      "actions": [
+        "Break down complex logic in `Dashboard.jsx` \u2014 cyclomatic complexity is critically high (174). Split into smaller functions.",
+        "`Dashboard.jsx` is very large (1063 lines). Split into multiple focused modules following Single Responsibility Principle."
+      ]
+    },
+    {
+      "file": "backend\\chatbot.py",
+      "score": 44.76,
+      "priority": "critical",
+      "actions": [
+        "Break down complex logic in `chatbot.py` \u2014 cyclomatic complexity is critically high (102). Split into smaller functions."
+      ]
+    }
+  ]
+}
